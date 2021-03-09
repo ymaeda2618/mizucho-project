@@ -2,7 +2,7 @@
 <div class="container">
     <div class="row justify-content-center">
 
-    <div class="top-title">在庫一覧在庫一覧在庫一覧</div>
+    <div class="top-title">在庫一覧在庫一覧</div>
 
         <div class='search-area'>
             <form id="index-search-form" method="post" action='{{$search_action}}' enctype="multipart/form-data">
