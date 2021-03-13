@@ -1566,7 +1566,7 @@ class SupplySlipController extends Controller
         //$ajaxHtml1 .= "         <input type='number' class='form-control' id='unit_price_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][unit_price]'  onKeyUp='javascript:priceNumChange(".$slip_num.")' tabindex='".($tabInitialNum + 1)."'>";
         //$ajaxHtml1 .= "     </td>";
         $ajaxHtml1 .= "     <td>";
-        $ajaxHtml1 .= "         <input type='text' class='form-control' id='inventory_unit_num_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][inventory_unit_num]' tabindex='".($tabInitialNum + 1)."'>";
+        $ajaxHtml1 .= "         <input type='number' class='form-control' id='inventory_unit_num_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][inventory_unit_num]' tabindex='".($tabInitialNum + 1)."'>";
         $ajaxHtml1 .= "     </td>";
         $ajaxHtml1 .= "     <td>";
         $ajaxHtml1 .= "         <input type='text' class='form-control' id='inventory_unit_text_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][inventory_unit_text]' placeholder='個数欄' readonly>";
@@ -1608,7 +1608,7 @@ class SupplySlipController extends Controller
         //$ajaxHtml1 .= "         <input type='hidden' id='inventory_unit_id_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][inventory_unit_id]' value='0'>";
         //$ajaxHtml1 .= "     </td>";
         $ajaxHtml1 .= "     <td>";
-        $ajaxHtml1 .= "         <input type='text' class='form-control' id='unit_num_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][unit_num]' onKeyUp='javascript:priceNumChange(".$slip_num.")' tabindex='".($tabInitialNum + 2)."'>";
+        $ajaxHtml1 .= "         <input type='number' class='form-control' id='unit_num_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][unit_num]' onKeyUp='javascript:priceNumChange(".$slip_num.")' tabindex='".($tabInitialNum + 2)."'>";
         $ajaxHtml1 .= "     </td>";
         $ajaxHtml1 .= "     <td>";
         $ajaxHtml1 .= "         <input type='text' class='form-control' id='unit_text_".$slip_num."' name='data[SupplySlipDetail][".$slip_num."][unit_text]' placeholder='数量欄' readonly>";

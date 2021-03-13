@@ -81,7 +81,7 @@
                         <input type="number" class="form-control" id="unit_price_0" name="data[SupplySlipDetail][0][unit_price]" onKeyUp='javascript:priceNumChange(0)' tabindex="4">
                     </td>-->
                     <td>
-                        <input type="text" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="4">
+                        <input type="number" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="4">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="inventory_unit_text_0" name="data[SupplySlipDetail][0][inventory_unit_text]" placeholder="個数欄" readonly>
@@ -112,21 +112,21 @@
                         <input type="text" class="form-control" id="standard_text_0" name="data[SupplySlipDetail][0][standard_text]" placeholder="規格欄" readonly>
                     </td>
                     <!--<td>
-                        <input type="text" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="5">
+                        <input type="number" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="5">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="unit_text_0" name="data[SupplySlipDetail][0][unit_text]" readonly>
                         <input type="hidden" id="unit_id_0" name="data[SupplySlipDetail][0][unit_id]" value="0">
                     </td
                     <td>
-                        <input type="text" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="5">
+                        <input type="number" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="5">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="inventory_unit_text_0" name="data[SupplySlipDetail][0][inventory_unit_text]" placeholder="個数欄" readonly>
                         <input type="hidden" id="inventory_unit_id_0" name="data[SupplySlipDetail][0][inventory_unit_id]" value="0">
                     </td>>-->
                     <td>
-                        <input type="text" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="5">
+                        <input type="number" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="5">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="unit_text_0" name="data[SupplySlipDetail][0][unit_text]" placeholder="数量欄" readonly>
@@ -153,7 +153,7 @@
                         <input type="text" class="form-control" id="quality_text_0" name="data[SupplySlipDetail][0][quality_text]" placeholder="品質欄" readonly>
                     </td>
                     <!--<td>
-                        <input type="text" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="6">
+                        <input type="number" class="form-control" id="unit_num_0" name="data[SupplySlipDetail][0][unit_num]" onKeyUp='javascript:priceNumChange(0)' tabindex="6">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="unit_text_0" name="data[SupplySlipDetail][0][unit_text]" placeholder="数量欄" readonly>
@@ -163,7 +163,7 @@
                         <input type="text" class="form-control" id="notax_price_0" name="data[SupplySlipDetail][0][notax_price]" value="0" readonly>
                     </td>-->
                     <!--<td colspan="2">
-                        <input type="text" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="8">
+                        <input type="number" class="form-control" id="inventory_unit_num_0" name="data[SupplySlipDetail][0][inventory_unit_num]" tabindex="8">
                     </td>
                     <td>
                         <input type="text" class="form-control" id="inventory_unit_text_0" name="data[SupplySlipDetail][0][inventory_unit_text]" readonly>
