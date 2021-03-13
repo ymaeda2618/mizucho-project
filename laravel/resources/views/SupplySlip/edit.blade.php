@@ -84,7 +84,7 @@
                         <input type="number" class="form-control" id="unit_price_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][unit_price]" value="{{$SupplySlipDetails->unit_price}}" tabindex="{{$tabInitialNum + 1}}" onKeyUp='javascript:priceNumChange({{$SupplySlipDetails->sort}})'>
                     </td>-->
                     <td>
-                        <input type="text" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" tabindex="{{$tabInitialNum + 1}}"
+                        <input type="number" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" tabindex="{{$tabInitialNum + 1}}"
                             onKeyUp='javascript:priceNumChange({{ $SupplySlipDetails->inventory_unit_num}})' placeholder="個数欄">
                     </td>
                     <td>
@@ -122,7 +122,7 @@
                         <input type="hidden" id="unit_id_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][unit_id]" value="{{$SupplySlipDetails->unit_id}}">
                     </td>
                     <td>
-                        <input type="text" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" tabindex="{{$tabInitialNum + 2}}"
+                        <input type="number" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" tabindex="{{$tabInitialNum + 2}}"
                             onKeyUp='javascript:priceNumChange({{ $SupplySlipDetails->inventory_unit_num}})' placeholder="個数欄">
                     </td>
                     <td>
@@ -167,7 +167,7 @@
                     </td>
                     <td colspan="2">
                         @php $readonly = empty($SupplySlipDetails->inventory_unit_id) ? 'readonly' : ''; @endphp
-                        <input type="text" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" {{$readonly}} tabindex="{{$tabInitialNum + 5}}">
+                        <input type="number" class="form-control" id="inventory_unit_num_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_num]" value="{{$SupplySlipDetails->inventory_unit_num}}" {{$readonly}} tabindex="{{$tabInitialNum + 5}}">
                     </td>-->
                     <!--<td>
                         <input type="text" class="form-control" id="inventory_unit_text_{{$SupplySlipDetails->sort}}" name="data[SupplySlipDetail][{{$SupplySlipDetails->sort}}][inventory_unit_text]" value="{{$SupplySlipDetails->inventory_unit_name}}" readonly>
