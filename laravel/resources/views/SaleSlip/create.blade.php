@@ -111,11 +111,11 @@
                         <input type="hidden" id="inventory_unit_id_0" name="data[SaleSlipDetail][0][inventory_unit_id]" value="0">
                     </td>
                     <td class="width-10">
-                        <input type="text" class="form-control staff_code_input" id="staff_code_0" name="data[SaleSlipDetail][0][staff_code]" tabindex="7">
-                        <input type="hidden" id="staff_id_0" name="data[SaleSlipDetail][0][staff_id]">
+                        <input type="text" class="form-control staff_code_input" id="staff_code_0" name="data[SaleSlipDetail][0][staff_code]" value="1009" tabindex="7">
+                        <input type="hidden" id="staff_id_0" name="data[SaleSlipDetail][0][staff_id]" value="9">
                     </td>
                     <td class="width-20">
-                        <input type="text" class="form-control" id="staff_text_0" name="data[SaleSlipDetail][0][staff_text]" placeholder="担当欄" readonly>
+                        <input type="text" class="form-control" id="staff_text_0" name="data[SaleSlipDetail][0][staff_text]" placeholder="担当欄" value="石塚 貞雄" readonly>
                     </td>
                     <td class="width-15">
                         <input type="text" class="form-control" id="tax_text_0" name="data[SaleSlipDetail][0][tax_text]" placeholder="税率欄" readonly>
